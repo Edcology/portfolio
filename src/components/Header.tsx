@@ -29,8 +29,8 @@ const Header = () => {
         </nav>
         {
             clicked && (
-                <div className="mt-4 text-lg">
-                   <ul className="flex flex-col gap-2 px-3 border-b border-b-black">
+                <div className="mt-4 text-lg bg-white">
+                   <ul className="flex flex-col gap-2 px-3 border-b border-b-gray-400 py-4">
                         <Link className="hover:underline" href='#home'><li>Home</li></Link>
                         <Link className="hover:underline" href='#about'><li>About</li></Link>
                         <Link className="hover:underline" href='#skills'><li>Skills</li></Link>
