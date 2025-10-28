@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Skills from '@/components/Skills'
 import React from 'react'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Hero />
       <About />
+      <Skills />
     </div>
   )
 }
