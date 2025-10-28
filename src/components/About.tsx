@@ -3,8 +3,8 @@ import profile from "../../public/profile.jpg"
 
 const About = () => {
   return (
-    <section id="about" className="md:px-24 lg:px-40 mb-40">
-        <h1 className="text-center text-2xl lg:text-4xl mb-6 font-semibold">About Me</h1>
+    <section id="about" className="md:px-24 lg:px-36 mb-40">
+        <h1 className="text-center text-[#030212] text-2xl lg:text-4xl mb-6 font-semibold">About Me</h1>
         <div className="flex flex-col md:flex-row-reverse gap-8 md:flex-1 lg:gap-12">
             <div className="flex justify-center items-center lg:p-10">
                 <Image src={profile} alt='Profile Picture' height={600} width={600} className="rounded-full w-64 h-64 md:w-5xl md:h-5xl lg:w-2xl lg:h-2xl" />
