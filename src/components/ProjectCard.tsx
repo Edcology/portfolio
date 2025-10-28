@@ -5,13 +5,13 @@ import { LuExternalLink } from 'react-icons/lu'
 interface project {
     projectName: string,
     projectDesc: string,
-    stacks: [],
+    stacks: string[],
     liveDemo: string,
     image: string
 }
 const ProjectCard = ({projectName, projectDesc, stacks, liveDemo, image}: project) => {
   return (
-    <div className='w-full shadow-xl border border-gray-100 grid h-fit rounded-2xl'>
+    <div className='w-full shadow-xl border border-gray-300 grid h-fit rounded-2xl'>
         <div className='w-full rounded-t-2xl'>
             <Image src={image} alt='project image' height={8} width={150} className='w-full h-48' />
         </div>

@@ -6,7 +6,7 @@ import { useState } from "react"
 const Header = () => {
     const [clicked, setClicked] = useState(false)
   return (
-    <div className="fixed top-6 left-0 right-0 px-3">
+    <div className="fixed top-6 left-0 right-0 px-3 z-50">
         <nav className="mx-auto bg-black/10 backdrop-blur-md border border-white/20 rounded-4xl p-4 md:px-6 shadow-sm w-full max-w-5xl">
             <div className="flex justify-between">
                 <div>
@@ -31,12 +31,12 @@ const Header = () => {
             clicked && (
                 <div className="mt-4 text-lg bg-white">
                    <ul className="flex flex-col gap-2 px-3 border-b border-b-gray-400 py-4">
-                        <Link className="hover:underline" href='#home'><li>Home</li></Link>
-                        <Link className="hover:underline" href='#about'><li>About</li></Link>
-                        <Link className="hover:underline" href='#skills'><li>Skills</li></Link>
-                        <Link className="hover:underline" href='#projects'><li>Projects</li></Link>
-                        <Link className="hover:underline" href='#experience'><li>Experience</li></Link>
-                        <Link className="hover:underline" href='#contact'><li>Contact</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#home'><li>Home</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#about'><li>About</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#skills'><li>Skills</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#projects'><li>Projects</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#experience'><li>Experience</li></Link>
+                        <Link onClick={() => setClicked(false)} className="hover:underline" href='#contact'><li>Contact</li></Link>
                     </ul> 
                 </div>
             )
