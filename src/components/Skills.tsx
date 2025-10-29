@@ -6,8 +6,8 @@ import { SiTypescript } from 'react-icons/si'
 
 const Skills = () => {
   return (
-    <section id='skills' className='md:px-24 px-2 sm:px-4 lg:px-40 flex flex-col justify-center items-center mb-24 bg-[#fbfdfc]'>
-        <h1 className='text-center text-[#030212] text-2xl lg:text-4xl mb-6 font-semibold'>Technical Skills</h1>
+    <section id='skills' className='md:px-32 px-6 py-12 sm:px-4 lg:px-48 flex flex-col justify-center items-center bg-[#fbfdfc]'>
+        <h1 className='text-center text-[#030212] text-3xl lg:text-4xl mb-8 font-medium'>Technical Skills</h1>
         <div className='flex gap-2 md:gap-4 lg:gap-8'>
             <FaReact className='h-10 w-10 md:h-14 md:w-14' />
             <RiNextjsFill className='h-10 w-10 md:h-14 md:w-14' />

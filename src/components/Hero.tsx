@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
-    <section id='home' className='text-center flex flex-col justify-center items-center pt-12 sm:px-12 md:px-24 lg:px-72 h-screen'>
+    <section id='home' className='bg-[#fbfdfc] text-center flex flex-col justify-center items-center pt-12 sm:px-12 md:px-24 lg:px-72 h-screen'>
         <h1 className='text-[32px] md:text-4xl lg:text-[50px] text-[#030212] mb-6'>Hi, I&apos;m Awofala Gbolahan </h1>
         <h2 className='text-[#86888e] text-2xl lg:text-3xl mb-6'>
             <Typewriter words={['A Frontend Developer']} loop={true} typeSpeed={70} deleteSpeed={50} delaySpeed={2000} />

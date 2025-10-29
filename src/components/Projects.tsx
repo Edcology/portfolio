@@ -33,9 +33,9 @@ const Projects = () => {
         },
     ]
   return (
-    <section id="projects">
-        <h1 className='text-center text-[#030212] text-2xl lg:text-4xl mb-6 font-semibold'>My Projects</h1>
-        <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] lg:px-36 px-0.5">
+    <section id="projects" className="px-4 py-12">
+        <h1 className='text-center text-[#030212] text-3xl lg:text-4xl mb-8 font-medium'>My Projects</h1>
+        <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] lg:px-36">
             {
                 projects.map((project, index: number) => (
                     <ProjectCard

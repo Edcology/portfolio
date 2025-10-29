@@ -28,8 +28,8 @@ const Experience = () => {
         }
     ]
   return (
-    <section id="experience" className="mt-12 px-1 lg:px-64 ">
-        <h1 className="text-center text-[#030212] text-2xl lg:text-4xl mb-6 font-semibold">Work Experience</h1>
+    <section id="experience" className="bg-[#fbfdfc] py-12 mt-12 px-4 lg:px-64 ">
+        <h1 className="text-center text-[#030212] text-3xl lg:text-4xl mb-8 font-medium">Work Experience</h1>
         <div className="md:border-l border-gray-300">
             <div className="grid gap-8 md:pl-7">
                 {
