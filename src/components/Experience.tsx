@@ -28,7 +28,7 @@ const Experience = () => {
         }
     ]
   return (
-    <section id="experience" className="mt-12 md:px-2 lg:px-64 ">
+    <section id="experience" className="mt-12 px-1 lg:px-64 ">
         <h1 className="text-center text-[#030212] text-2xl lg:text-4xl mb-6 font-semibold">Work Experience</h1>
         <div className="md:border-l border-gray-300">
             <div className="grid gap-8 md:pl-7">
