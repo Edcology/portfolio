@@ -16,18 +16,18 @@ const Footer = () => {
             </div>
             <div className="grid gap-4 md:flex md:flex-col md:gap-3 md:w-1/3">
                 <h1 className="text-xl">Quick Links</h1>
-                <ul className="text-[#86888e] text-sm md:flex md:flex-col md:gap-2">
-                    <Link href='#home'><li>Home</li></Link>
-                    <Link href='#about'><li>About</li></Link>
-                    <Link href='#skills'><li>Skills</li></Link>
-                    <Link href='#projects'><li>Projects</li></Link>
-                    <Link href='#experience'><li>Experience</li></Link>
-                    <Link href='#contact'><li>Contact</li></Link>
+                <ul className="text-[#86888e] text-sm flex flex-col gap-2">
+                    <Link className="hover:underline" href='#home'><li>Home</li></Link>
+                    <Link className="hover:underline" href='#about'><li>About</li></Link>
+                    <Link className="hover:underline" href='#skills'><li>Skills</li></Link>
+                    <Link className="hover:underline" href='#projects'><li>Projects</li></Link>
+                    <Link className="hover:underline" href='#experience'><li>Experience</li></Link>
+                    <Link className="hover:underline" href='#contact'><li>Contact</li></Link>
                 </ul>
             </div>
             <div className="grid gap-4 md:flex md:flex-col md:gap-3 md:w-1/3">
                 <h1 className="text-xl">Contact</h1>
-                <div className="text-[#86888e] text-sm md:flex md:flex-col md:gap-3">
+                <div className="text-[#86888e] text-sm flex flex-col gap-3">
                     <p>Lagos, NG</p>
                     <p>edawofal@gmail.com</p>
                     <p>+2348140361990</p>
@@ -35,10 +35,10 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex gap-6 py-8 justify-center text-[#86888e]'>
-            <Link href='https://www.google.com'><PiGithubLogoLight className='cursor-pointer h-8 w-8' /></Link>
-            <Link href='https://www.google.com'><SlSocialLinkedin className='cursor-pointer h-7 w-7' /></Link>
-            <Link href='https://www.google.com'><FaXTwitter className='cursor-pointer h-7 w-7' /></Link>
-            <Link href='https://www.google.com'><EnvelopeIcon className='cursor-pointer h-8 w-8' /></Link>
+            <Link href='https://github.com/Edcology'><PiGithubLogoLight className='hover:text-black cursor-pointer h-8 w-8' /></Link>
+            <Link href='https://www.linkedin.com/in/gbolahan-awofala-537377275'><SlSocialLinkedin className='hover:text-black cursor-pointer h-7 w-7' /></Link>
+            <Link href='https://x.com/AwofalaGbolaha1?t=kOS_Nmr2hn3JAg2Oqa7hrA&s=08'><FaXTwitter className='hover:text-black cursor-pointer h-7 w-7' /></Link>
+            <Link href='mailto:edawofal@gmail.com'><EnvelopeIcon className='hover:text-black cursor-pointer h-8 w-8' /></Link>
         </div>
         <hr className="text-gray-300" />
         <div className="text-center pt-6">

@@ -5,24 +5,16 @@ const Experience = () => {
         {
             role: 'Frontend Developer Intern',
             company: 'Ofriend Edu',
-            startDate: 'Jan 2024',
-            endDate: 'Sep 2025',
+            startDate: 'Oct 2024',
+            endDate: 'Nov 2024',
             location: 'Remote',
-            tasks: [' Developed responsive and accessible web interfaces using React.js and TailwindCSS.', ' Improved page load speed by 20% through optimized code and asset management.', 'Collaborated with designers and backend developers to deliver pixel-perfect UI aligned with brand guidelines.']
+            tasks: ['Built and deployed interactive educational platform pages, ensuring cross-browser compatibility.', ' Enhanced site performance with code optimization, reducing initial load time by 15%', 'Worked closely with product managers to deliver features ahead of schedule.']
         },
         {
             role: 'Frontend Developer Intern',
-            company: 'Ofriend Edu',
-            startDate: 'Jan 2024',
-            endDate: 'Sep 2025',
-            location: 'Remote',
-            tasks: [' Developed responsive and accessible web interfaces using React.js and TailwindCSS.', ' Improved page load speed by 20% through optimized code and asset management.', 'Collaborated with designers and backend developers to deliver pixel-perfect UI aligned with brand guidelines.']
-        },
-        {
-            role: 'Frontend Developer Intern',
-            company: 'Ofriend Edu',
-            startDate: 'Jan 2024',
-            endDate: 'Sep 2025',
+            company: 'Enoverlab',
+            startDate: 'Nov 2024',
+            endDate: 'Feb 2025',
             location: 'Remote',
             tasks: [' Developed responsive and accessible web interfaces using React.js and TailwindCSS.', ' Improved page load speed by 20% through optimized code and asset management.', 'Collaborated with designers and backend developers to deliver pixel-perfect UI aligned with brand guidelines.']
         }

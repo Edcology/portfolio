@@ -4,6 +4,7 @@ import { PiGithubLogoLight } from 'react-icons/pi'
 import { SlSocialLinkedin } from 'react-icons/sl'
 import { EnvelopeIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 import { Typewriter } from 'react-simple-typewriter'
+import { FaXTwitter } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
@@ -24,9 +25,10 @@ const Hero = () => {
             </Link>
         </div>
         <div className='flex gap-4 mb-10'>
-            <Link href='https://www.google.com'><PiGithubLogoLight className='cursor-pointer h-8 w-8' /></Link>
-            <Link href='https://www.google.com'><SlSocialLinkedin className='cursor-pointer h-7 w-7' /></Link>
-            <Link href='https://www.google.com'><EnvelopeIcon className='cursor-pointer h-8 w-8' /></Link>
+            <Link href='https://github.com/Edcology'><PiGithubLogoLight className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
+            <Link href='https://www.linkedin.com/in/gbolahan-awofala-537377275'><SlSocialLinkedin className='hover:text-black text-[#86888e] cursor-pointer h-7 w-7' /></Link>
+            <Link href='https://x.com/AwofalaGbolaha1?t=kOS_Nmr2hn3JAg2Oqa7hrA&s=08'><FaXTwitter className='hover:text-black text-[#86888e] cursor-pointer h-7 w-7' /></Link>
+            <Link href='mailto:edawofal@gmail.com'><EnvelopeIcon className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
         </div>
         <div>
             <Link href='#about'><ChevronDownIcon className='h-8 w-8 animate-bounce cursor-pointer' /></Link>

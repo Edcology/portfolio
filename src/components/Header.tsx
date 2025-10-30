@@ -17,12 +17,12 @@ const Header = () => {
                 </div>
                 <div className="hidden md:block">
                     <ul className="flex gap-3">
-                        <Link href='#home'><li>Home</li></Link>
-                        <Link href='#about'><li>About</li></Link>
-                        <Link href='#skills'><li>Skills</li></Link>
-                        <Link href='#projects'><li>Projects</li></Link>
-                        <Link href='#experience'><li>Experience</li></Link>
-                        <Link href='#contact'><li>Contact</li></Link>
+                        <Link className="hover:underline" href='#home'><li>Home</li></Link>
+                        <Link className="hover:underline" href='#about'><li>About</li></Link>
+                        <Link className="hover:underline" href='#skills'><li>Skills</li></Link>
+                        <Link className="hover:underline" href='#projects'><li>Projects</li></Link>
+                        <Link className="hover:underline" href='#experience'><li>Experience</li></Link>
+                        <Link className="hover:underline" href='#contact'><li>Contact</li></Link>
                     </ul>
                 </div>
             </div>
