@@ -12,14 +12,14 @@ const Projects = () => {
         },
         {
             projectName: 'CSVote',
-            projectDesc: 'A decentralized e-voting system built with Solana, Rust, and Node.js. Features include secure voter authentication, transparent vote recording, real-time result tracking, and immutable blockchain-based storage',
+            projectDesc: 'A decentralized e-voting platform built with Solana, Rust, and Node.js. Features include voter authentication, transparent results, real-time vote tracking, and secure blockchain-based storage.',
             stacks: ['ReactJS', 'Rust', 'Tailwind', 'Express.js', 'MongoDB'],
             liveDemo: 'https://evoting-frontend.vercel.app/',
             image: '/csvote.jpg'
         },
         {
             projectName: 'JobNest',
-            projectDesc: 'A responsive job search platform built with React and TailwindCSS. Features include advanced job filtering by industry, location, and keyword, an intuitive search interface, and a clean, modern design optimized for accessibility and user engagement',
+            projectDesc: 'A responsive job discovery platform built with React and TailwindCSS. Features include smart job filtering by role, location, and keyword, and an accessible design focused on user engagement.',
             stacks: ['ReactJS', 'Tailwind'],
             liveDemo: 'https://jobnest89.netlify.app/',
             image: '/jobnest.jpg'
