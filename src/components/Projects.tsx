@@ -8,29 +8,22 @@ const Projects = () => {
             projectDesc: 'A real-time chat application built with Next.js, Express.js, and Socket.io. Features include user authentication, live messaging, and a responsive UI powered by TailwindCSS.',
             stacks: ['NextJs', 'Socket.io', 'Tailwind', 'Express.js', 'Prisma'],
             liveDemo: 'https://codechat-swart.vercel.app/',
-            image: '/codechat.png'
+            image: '/codechat.jpg'
         },
         {
-            projectName: 'CodeChat',
-            projectDesc: 'A real-time chat application built with Next.js, Express.js, and Socket.io. Features include user authentication, live messaging, and a responsive UI powered by TailwindCSS.',
-            stacks: ['NextJs', 'Socket.io', 'Tailwind', 'Express.js', 'Prisma'],
-            liveDemo: 'https://codechat-swart.vercel.app/',
-            image: '/codechat.png'
+            projectName: 'CSVote',
+            projectDesc: 'A decentralized e-voting system built with Solana, Rust, and Node.js. Features include secure voter authentication, transparent vote recording, real-time result tracking, and immutable blockchain-based storage',
+            stacks: ['ReactJS', 'Rust', 'Tailwind', 'Express.js', 'MongoDB'],
+            liveDemo: 'https://evoting-frontend.vercel.app/',
+            image: '/csvote.jpg'
         },
         {
-            projectName: 'CodeChat',
-            projectDesc: 'A real-time chat application built with Next.js, Express.js, and Socket.io. Features include user authentication, live messaging, and a responsive UI powered by TailwindCSS.',
-            stacks: ['NextJs', 'Socket.io', 'Tailwind', 'Express.js', 'Prisma'],
-            liveDemo: 'https://codechat-swart.vercel.app/',
-            image: '/codechat.png'
-        },
-        {
-            projectName: 'CodeChat',
-            projectDesc: 'A real-time chat application built with Next.js, Express.js, and Socket.io. Features include user authentication, live messaging, and a responsive UI powered by TailwindCSS.',
-            stacks: ['NextJs', 'Socket.io', 'Tailwind', 'Express.js', 'Prisma'],
-            liveDemo: 'https://codechat-swart.vercel.app/',
-            image: '/codechat.png'
-        },
+            projectName: 'JobNest',
+            projectDesc: 'A responsive job search platform built with React and TailwindCSS. Features include advanced job filtering by industry, location, and keyword, an intuitive search interface, and a clean, modern design optimized for accessibility and user engagement',
+            stacks: ['ReactJS', 'Tailwind'],
+            liveDemo: 'https://jobnest89.netlify.app/',
+            image: '/jobnest.jpg'
+        }
     ]
   return (
     <section id="projects" className="px-4 py-12">
