@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-blue-delta-6f1uoclg7g.vercel.app/
+
+# Sitemaps
+Sitemap: https://portfolio-blue-delta-6f1uoclg7g.vercel.app/sitemap.xml
