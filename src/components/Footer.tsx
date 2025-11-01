@@ -1,6 +1,5 @@
 import { EnvelopeIcon, HeartIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
-import { FaXTwitter } from "react-icons/fa6"
 import { PiGithubLogoLight } from "react-icons/pi"
 import { SlSocialLinkedin } from "react-icons/sl"
 
@@ -30,14 +29,12 @@ const Footer = () => {
                 <div className="text-[#86888e] text-sm flex flex-col gap-3">
                     <p>Lagos, NG</p>
                     <p>edawofal@gmail.com</p>
-                    <p>+2348140361990</p>
                 </div>
             </div>
         </div>
         <div className='flex gap-6 py-8 justify-center text-[#86888e]'>
             <Link href='https://github.com/Edcology'><PiGithubLogoLight className='hover:text-black cursor-pointer h-8 w-8' /></Link>
             <Link href='https://www.linkedin.com/in/gbolahan-awofala-537377275'><SlSocialLinkedin className='hover:text-black cursor-pointer h-7 w-7' /></Link>
-            <Link href='https://x.com/AwofalaGbolaha1?t=kOS_Nmr2hn3JAg2Oqa7hrA&s=08'><FaXTwitter className='hover:text-black cursor-pointer h-7 w-7' /></Link>
             <Link href='mailto:edawofal@gmail.com'><EnvelopeIcon className='hover:text-black cursor-pointer h-8 w-8' /></Link>
         </div>
         <hr className="text-gray-300" />

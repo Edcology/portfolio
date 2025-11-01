@@ -27,7 +27,6 @@ const About = () => {
                     </div>
                     <div>
                         <p className="text-sm"><span className="font-semibold">Experience:</span>  2+ years</p>
-                        <p className="text-sm"><span className="font-semibold">Phone:</span>  +2348140361990</p>
                     </div>
                 </div>
             </div>

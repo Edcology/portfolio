@@ -13,7 +13,6 @@ const Contact = () => {
                     Always up for new challenges and cool projects! Got a question or just want to say hi? Reach out anytime!
                 </p>
                 <p className="flex items-center gap-1 mb-2 text-sm"><EnvelopeIcon className="w-4 h-4 md:w-5 md:h-5" /> edawofal@gmail.com</p>
-                <p className="flex items-center gap-1 mb-2 text-sm"><PhoneIcon className="w-4 h-4 md:w-5 md:h-5" /> +2348140361990</p>
                 <p className="flex items-center gap-1 mb-2 text-sm"><MapPinIcon className="w-4 h-4 md:w-5 md:h-5" /> Lagos, NG</p>
                 <h3 className="mt-4 md:mt-6 mb-2 md:mb-4 font-medium">Why Choose Me?</h3>
                 <ul className="text-sm text-[#86888e] flex flex-col gap-1 md:gap-3">

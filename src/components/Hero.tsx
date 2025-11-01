@@ -25,10 +25,9 @@ const Hero = () => {
             </Link>
         </div>
         <div className='flex gap-4 mb-10'>
-            <Link href='https://github.com/Edcology'><PiGithubLogoLight className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
-            <Link href='https://www.linkedin.com/in/gbolahan-awofala-537377275'><SlSocialLinkedin className='hover:text-black text-[#86888e] cursor-pointer h-7 w-7' /></Link>
-            <Link href='https://x.com/AwofalaGbolaha1?t=kOS_Nmr2hn3JAg2Oqa7hrA&s=08'><FaXTwitter className='hover:text-black text-[#86888e] cursor-pointer h-7 w-7' /></Link>
-            <Link href='mailto:edawofal@gmail.com'><EnvelopeIcon className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
+            <Link target='_blank' rel='noopener noreferrer' href='https://github.com/Edcology'><PiGithubLogoLight className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
+            <Link target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/gbolahan-awofala-537377275'><SlSocialLinkedin className='hover:text-black text-[#86888e] cursor-pointer h-7 w-7' /></Link>
+            <Link target='_blank' rel='noopener noreferrer' href='mailto:edawofal@gmail.com'><EnvelopeIcon className='hover:text-black text-[#86888e] cursor-pointer h-8 w-8' /></Link>
         </div>
         <div>
             <Link href='#about'><ChevronDownIcon className='h-8 w-8 animate-bounce cursor-pointer' /></Link>
