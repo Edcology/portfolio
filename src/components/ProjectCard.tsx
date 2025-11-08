@@ -25,7 +25,7 @@ const ProjectCard = ({projectName, projectDesc, stacks, liveDemo, image}: projec
                     ))
                  }
             </div>
-            <Link className='flex items-center gap-1 hover:underline text-sm' href={liveDemo}><span><LuExternalLink /></span>Live Demo</Link>
+            <Link target='_blank' className='flex items-center gap-1 hover:underline text-sm' href={liveDemo}><span><LuExternalLink /></span>Live Demo</Link>
         </div>
     </div>
   )

@@ -8,21 +8,21 @@ const Projects = () => {
             projectDesc: 'A real-time chat application built with Next.js, Express.js, and Socket.io. Features include user authentication, live messaging, and a responsive UI powered by TailwindCSS.',
             stacks: ['NextJs', 'Socket.io', 'Tailwind', 'Express.js', 'Prisma'],
             liveDemo: 'https://codechat-swart.vercel.app/',
-            image: '/codechat.jpg'
+            image: '/codechat.png'
         },
         {
             projectName: 'CSVote',
             projectDesc: 'A decentralized e-voting platform built with Solana, Rust, and Node.js. Features include voter authentication, transparent results, real-time vote tracking, and secure blockchain-based storage.',
             stacks: ['ReactJS', 'Rust', 'Tailwind', 'Express.js', 'MongoDB'],
             liveDemo: 'https://evoting-frontend.vercel.app/',
-            image: '/csvote.jpg'
+            image: '/csvote.png'
         },
         {
             projectName: 'JobNest',
             projectDesc: 'A responsive job discovery platform built with React and TailwindCSS. Features include smart job filtering by role, location, and keyword, and an accessible design focused on user engagement.',
             stacks: ['ReactJS', 'Tailwind'],
             liveDemo: 'https://jobnest89.netlify.app/',
-            image: '/jobnest.jpg'
+            image: '/jobnest.png'
         }
     ]
   return (

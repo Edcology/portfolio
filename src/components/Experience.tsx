@@ -17,6 +17,14 @@ const Experience = () => {
             endDate: 'Feb 2025',
             location: 'Remote',
             tasks: [' Developed responsive and accessible web interfaces using React.js and TailwindCSS.', ' Improved page load speed by 20% through optimized code and asset management.', 'Collaborated with designers and backend developers to deliver pixel-perfect UI aligned with brand guidelines.']
+        },
+        {
+            role: 'Frontend Developer Intern',
+            company: ' Globaltech World Computer Institute',
+            startDate: 'Nov 2023',
+            endDate: 'Jan 2024',
+            location: 'Lagos',
+            tasks: ['Transformed ideas into visually appealing and responsive user interfaces.', 'Demonstrated the ability to replicate front-end designs effectively.', ' Utilized web development fundamentals to enhance user interfaces.']
         }
     ]
   return (

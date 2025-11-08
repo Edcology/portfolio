@@ -12,14 +12,11 @@ const About = () => {
             <div className="flex flex-col gap-4">
                 <h2 className="text-xl font-semibold ">Hello! I&apos;m Awofala Gbolahan</h2>
                 <p className="text-[#86888e]">
-                    I&apos;m a Frontend Developer with a growing interest in Artificial Intelligence and Machine Learning. With a strong foundation in React, Next.js, Tailwind CSS, TypeScript, and JavaScript, I focus on building fast, responsive, and user-friendly web applications.
-                </p>
+                    I&apos;m a Frontend Developer with a growing passion for Artificial Intelligence and Machine Learning. I specialize in building fast, responsive, and intuitive web applications using tools like React, Next.js, Tailwind CSS, TypeScript, and JavaScript, but I&apos;m never limited by a specific stack. I enjoy learning new technologies and picking up whatever tools are needed to bring an idea to life.                </p>
                 <p className="text-[#86888e]">
-                    I&apos;m passionate about crafting clean, maintainable code and solving problems through thoughtful design and functionality. My attention to detail and ability to learn quickly allow me to adapt to new technologies and deliver high-quality results.
-                </p>
+                    I care about writing clean, maintainable code and solving real problems through thoughtful design and functionality. My adaptability, curiosity, and attention to detail help me quickly adjust to new challenges and deliver quality results, no matter the environment.</p>
                 <p className="text-[#86888e]">
-                    Currently, I&apos;m open to job opportunities and freelance projects while exploring how AI and ML can enhance web experiences. Outside of work, I enjoy reading tech blogs and novels to stay inspired and continually expand my knowledge.
-                </p>
+                    I&apos;m currently open to job opportunities and freelance projects, especially those that explore how AI and ML can shape smarter web experiences. Outside of work, I love reading tech blogs and novels — they keep me inspired and constantly learning.</p>
                 <div className="flex gap-4 md:gap-6">
                     <div>
                         <p className="text-sm"><span className="font-semibold">Location:</span> Lagos, NG</p>
